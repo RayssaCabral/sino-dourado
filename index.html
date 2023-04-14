@@ -21,7 +21,9 @@
   <body>
     <div class="container">
       <header class="topo">
-        <div class="blocoazul"></div>
+        <div class="blocoazul">
+          <h1> Sino Dourado </h1>
+        </div>
         <nav class="barra">
           <div class="logo">
             <a href="#"><img src="img/logo.png" alt="logo" /></a>
@@ -30,8 +32,8 @@
           <a href="#suina" class="botao">Suína</a>
           <a href="#exotica" class="botao">Exótica</a>
           <a href="#mar" class="botao">Do Mar</a>
-          <a href="#duvidasfrq" class="botao"> Dúvidas</a>
-          <a href="#local" class="botao">Como nos achar</a>
+          <a href="#duvidasfrq" class="botao">Dúvidas</a>
+          <a href="#local" class="botao">Localização</a>
           <div class="pesquise">
             <input type="text" placeholder="Pesquise" />
             <ion-icon name="search-outline"></ion-icon>
@@ -48,8 +50,7 @@
 
         <div class="slide first">
           <img
-            src="img/carrossel1.png"
-            alt="Imagem 1"
+            src="img/carrossel1.png" alt="Imagem 1"
           />
         </div>
 
@@ -71,24 +72,52 @@
 
     <div class="menu">
       <div class="carne" id="bovina">
-        <div class="card-txt"></div>
-        <div class="card-img"></div>
+        <div class="card-txt">
+          <img src="img/arabesco.png" />
+          <h1>Picanha Wagyu</h1>
+          <P>A Picanha Wagyu é muito apreciada por seu sabor único. Uma iguaria para os apreciadores de carnes nobres, graças à capa de gordura e alto nível de marmoreio e maciez</P>
+          <a href="" class="botao-card">Adicionar</a>
+        </div>
+        <div class="card-img">
+          <img src="/img/wagyu.jpg" />
+        </div>
       </div>
       <div class="carne" id="suina">
-        <div class="card-img"></div>
-        <div class="card-txt"></div>
+        <div class="card-img">
+          <img src="/img/costela.jpg">
+        </div>
+        <div class="card-txt">
+          <img src="img/arabesco.png" />
+          <h1>Costela Suína</h1>
+          <P>Costelinha de porco, a spare ribs é um corte obitido da porção lombar do suíno. É um corte grande, começa no peito e vai até a parte mais traseira do porco.</P>
+          <a href="" class="botao-card">Adicionar</a>
+        </div>
       </div>
       <div class="carne" id="exotica">
-        <div class="card-txt"></div>
-        <div class="card-img"></div>
+        <div class="card-txt">
+          <img src="img/arabesco.png" />
+          <h1>Carne de coelho</h1>
+          <P>A carne de coelho é considerada mais magra e mais saudável quando comparada às carnes bovina, ovina e suína. Além disso, é altamente digerível, saborosa, baixa em calorias, gorduras e colesterol.</P>
+          <a href="" class="botao-card">Adicionar</a>
+        </div>
+        <div class="card-img">
+          <img src="/img/coelho.jpg" />
+        </div>
       </div>
       <div class="carne" id="mar">
-        <div class="card-img"></div>
-        <div class="card-txt"></div>
+        <div class="card-img">
+          <img src="/img/salmão.jpg" />
+        </div>
+        <div class="card-txt">
+          <img src="img/arabesco.png" />
+          <h1>Salmão</h1>
+          <P>Um dos peixes mais requisitados em composições gastronômicas e pratos sofisticados, o salmão é, além de muito saboroso, muito leve para a nossa alimentação saudável. Por ser frequentemente recomendado por médicos-pelo seu alto valor nutricional.</P>
+          <a href="" class="botao-card">Adicionar</a>
+        </div>
       </div>
     </div>
 
-    <div class="duvidas">
+    <div class="duvidas" id="duvidasfrq">
       <h1>Dúvidas frequentes</h1>
       <section>
         <div class="duvida-div">
@@ -158,15 +187,8 @@
           </form>
         </div>
       </div>
-      <div class="redesocial">
-        <h1>Nossas Redes</h1>
-        <p>@teste</p>
-        <p>@teste</p>
-        <p>@teste</p>
-        <p>@teste</p>
-      </div>
+      <img src="/img/barbudo.png" alt="imagem 4"/>
     </div>
-
     <div class="rodape">
       <div class="qsomos">
         <h1>Quem Somos</h1>
@@ -177,14 +199,22 @@
           efficitur orci
         </p>
       </div>
-
+      
       <div class="contatos">
         <h1>Contatos</h1>
         <p style="padding-top: 10px">(21) 00000-0000</p>
         <p>Email:contato@gmail.com</p>
       </div>
+      
+      <div class="redesocial">
+        <h1>Nossas Redes</h1>
+        <p>@teste</p>
+        <p>@teste</p>
+        
+        
+      </div>
 
-      <div class="local">
+      <div class="local" id="local">
         <h2>Localização</h2>
         <br />
         <iframe
@@ -198,7 +228,7 @@
     </div>
 
     <div class="creditos">
-      <p>Desenvolvido por Rayssa</p>
+      <p>Desenvolvido por Rayssa Cabral</p>
     </div>
   </body>
 </html>
